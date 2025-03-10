@@ -8,11 +8,15 @@
     --font3: "Sriracha", cursive;
 }
 
+
+
 *{
     margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
+
+
 
 html, body{
     background-color: darkgray;
@@ -20,6 +24,9 @@ html, body{
     min-height: 100vh;
     font-family: var(--font1);
 }
+
+
+
 
 header{
     background-color: rgb(0, 0, 0);
@@ -40,6 +47,8 @@ header > p {
 }
 
 
+
+
 a{
     text-decoration: none;
     color: white;
@@ -51,14 +60,21 @@ a:hover{
     color: darkgrey;
 }
 
+
+
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 3vw;
+    font-size: 2.5vw;
   
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -69,13 +85,28 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.781);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(0, 0, 0, 0.473);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.685);
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 0px black;
 }
+
+section#img01{
+    background-image: url('../imagens/background001.png');
+    background-position: left center;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+}
+
 
 
 
