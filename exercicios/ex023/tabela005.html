@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        th{
+            background-color: gray;
+            border: 2px solid black;
+            color: white;
+
+        }
+        td{
+            border: 2px solid black;
+            padding: 8px;
+        }
+        .cnome{
+            background-color: aqua;
+        }
+        .csexo{
+            background-color: blueviolet;
+        }
+        .cgroup{
+            background-color: chartreuse;
+        }
+        .cprof{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgroup" span="2">
+            <col class="cprof"> 
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Frentista</td>
+        </tr>
+        <tr>
+            <td>Alan Vinicius</td>
+            <td>m</td>
+            <td>24</td>
+            <td>Front-end</td>
+        </tr>
+        <tr>
+            <td>Antonio Augusto</td>
+            <td>m</td>
+            <td>43</td>
+            <td>Segurança</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>47</td>
+            <td>Adminstrativa</td>
+        </tr>
+        <tr>
+            <td>Isabela</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Pediatra</td>
+        </tr>
+        <tr>
+            <td>Everton</td>
+            <td>m</td>
+            <td>25</td>
+            <td>Atleta</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Empreendedor</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
